@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7efe7">
+  <title>Sebuah Pengakuan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="reaction-overlay" id="reactionOverlay" aria-hidden="true">
+    <div class="reaction-content">
+      <div class="reaction-emoji" id="reactionEmoji">💗</div>
+      <p class="reaction-title" id="reactionTitle">Yeee!</p>
+      <p class="reaction-message" id="reactionMessage">Aku senang mendengarnya!</p>
+      <div class="reaction-hearts" aria-hidden="true">♡　✦　♡　✧　♡</div>
+    </div>
+  </div>
+  <main class="page-shell">
+    <section class="card message-card">
+      <a class="back-link" href="index.html">← kembali</a>
+      <div class="message-mark" aria-hidden="true">♡</div>
+      <p class="overline">Sebenarnya...</p>
+      <h1>Aku mau jujur tentang pertemuan pertama kita.</h1>
+
+      <div class="letter-copy">
+        <p>Aku masih ingat kesan pertamaku waktu kita pertama kali bertemu/kenal. Entah kenapa, ada sesuatu dari dirimu yang langsung menarik perhatianku.</p>
+        <p>Mungkin kedengarannya terlalu cepat untuk bilang seperti ini, karena kita juga belum terlalu lama saling mengenal. Tapi sejak saat itu, aku jadi penasaran ingin tahu lebih banyak tentang kamu.</p>
+        <p>Aku nggak berharap kamu harus membalas perasaanku. Aku cuma ingin jujur, daripada terus menyimpannya sendiri.</p>
+        <p>Apa pun jawabanmu nanti, terima kasih sudah meluangkan waktu untuk membaca pesan ini.</p>
+      </div>
+
+      <div class="reply-area">
+        <h2>Kamu mau merespons bagaimana?</h2>
+        <p class="helper">Pilih salah satu. WhatsApp akan terbuka dengan pesan yang sudah disiapkan.</p>
+        <div class="reply-grid">
+          <button class="button button-primary" type="button" data-reply="yes">Aku juga tertarik :)</button>
+          <button class="button button-soft" type="button" data-reply="think">Aku mau kenal lebih jauh dulu</button>
+          <button class="button button-soft button-full" type="button" data-reply="no">Maaf, aku belum punya perasaan yang sama</button>
+        </div>
+        <p class="status" id="status" role="status" aria-live="polite"></p>
+      </div>
+      <p class="signature">— dari seseorang yang mengingat pertemuan pertama itu</p>
+    </section>
+    <footer class="page-footer">jawab dengan nyaman, nggak perlu terburu-buru</footer>
+  </main>
+</body>
+</html>
